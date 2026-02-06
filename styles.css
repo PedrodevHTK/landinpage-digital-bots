@@ -509,6 +509,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+#como-funciona {
+  scroll-margin-top: 100px;
+}
+
 .video-glow {
   position: absolute;
   inset: -1rem;
