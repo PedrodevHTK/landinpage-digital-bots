@@ -553,7 +553,13 @@ h1, h2, h3, h4, h5, h6 {
 .features-bg {
   position: absolute;
   inset: 0;
+  z-index: 0;
   background: linear-gradient(to bottom, hsl(var(--background)), hsl(var(--card) / 0.3), hsl(var(--background)));
+}
+
+.features .container {
+  position: relative;
+  z-index: 1;
 }
 
 .features-header {
